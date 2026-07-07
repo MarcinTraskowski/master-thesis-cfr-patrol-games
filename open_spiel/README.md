@@ -26,7 +26,7 @@ These JSON files define the graph topology, attack durations, target values, and
 
 ## Training defender strategies
 
-Several training executables are provided depending on the selected CFR variant.
+Several training source files are provided for different CFR variants.
 
 ### Vanilla CFR / CFR+
 
@@ -37,13 +37,13 @@ Several training executables are provided depending on the selected CFR variant.
 
 - `open_spiel/examples/mccfr_with_exploit.cc`
 
-Depending on the selected executable, it is possible to train defender strategies using vanilla CFR, CFR+, or Monte Carlo CFR, with optional exploitability computation.
+These source files can be used to train defender strategies using Vanilla CFR, CFR+, or Monte Carlo CFR. The `*_with_exploit` variants additionally compute exploitability during training.
 
 ---
 
 ## Example strategy
 
-Training results are stored in
+Training results are stored in:
 
 ```text
 results/full/
