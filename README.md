@@ -4,9 +4,7 @@ This repository contains the source code accompanying my master's thesis:
 
 > **Applying Counterfactual Regret Minimization to Patrol Games**
 
-The goal of this work is to investigate the applicability of Counterfactual Regret Minimization (CFR) algorithms to robotic patrol games. In particular, the thesis evaluates vanilla CFR, CFR+, and Monte Carlo CFR, and compares the resulting defender strategies with two recent patrolling frameworks: SHIELD and RoSSO.
-
-The patrol game is implemented on top of the [OpenSpiel](https://github.com/google-deepmind/open_spiel), while [SHIELD](https://github.com/anagorko/stackelberg-games/tree/main/stackelberg-games-patrolling) and [RoSSO](https://github.com/conhugh/RoSSO) are used as benchmark methods for comparison.
+The goal of this work is to investigate the applicability of Counterfactual Regret Minimization (CFR) algorithms to robotic patrol games. In particular, the thesis studies the defender strategies produced by vanilla CFR, CFR+, and Monte Carlo CFR. The patrol game is implemented on top of the [OpenSpiel](https://github.com/google-deepmind/open_spiel), while [SHIELD](https://github.com/anagorko/stackelberg-games/tree/main/stackelberg-games-patrolling) and [RoSSO](https://github.com/conhugh/RoSSO) are used as benchmark methods for comparison.
 
 ---
 
