@@ -1,10 +1,8 @@
 # OpenSpiel Fork
 
-This directory contains my fork of OpenSpiel, extended with a custom implementation of the **patrol game** developed as part of my master's thesis. The game is implemented in **C++** and fully integrated with the OpenSpiel framework.
+This directory contains my fork of OpenSpiel, extended with a custom implementation of the **patrol game** developed as part of my master's thesis. The game is implemented in **C++** and fully integrated with the [OpenSpiel](https://github.com/google-deepmind/open_spiel).
 
-In addition to the files described below, several small modifications to the original OpenSpiel repository are required (e.g. CMake registration). These changes follow the standard OpenSpiel integration process described in the Developer Guide:
-
-- https://github.com/MarcinTraskowski/open_spiel/blob/master/docs/developer_guide.md
+In addition to the files described below, several small modifications to the original OpenSpiel repository are required (e.g. CMake registration). These changes follow the standard OpenSpiel integration process described in the [Developer Guide](https://github.com/MarcinTraskowski/open_spiel/blob/master/docs/developer_guide.md).
 
 ---
 
